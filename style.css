@@ -1,0 +1,67 @@
+*{padding:0;
+	margin:0;
+	font-family:kanit-black;
+}
+.wrapper{
+	background:url(cup.jpg)repeat;
+	background-size:cover;
+	height:100vh;}
+.navbar{
+	height: 80px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.1);
+
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	display: inline-block;
+	margin: 5 20px;
+	list-style:none;
+	line-height: 80px;
+
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: magenta;
+	font-size: 25px;
+	padding: 10px 10px;
+	font-family: calibri;
+
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+				background: white;
+				border-radius: 15px;
+
+
+}
+.wrapper .center{
+		position:absolute;
+		top: 40%;
+		left: 30%;
+		transform: translate(-50%, -50%);
+		font-family: sans-serif;
+		user-select: none;
+
+}
+.center h1{
+font-size: 40px;
+color: green;
+font-weight: bold;
+width: 900px;
+text-align:left;
+
+}
+.center h2{
+font-size: 30px;
+color: cyan;
+font-weight: bold;
+width: 900px;
+text-align:left;
+
+}
+
+
